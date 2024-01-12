@@ -1,0 +1,24 @@
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../../assets/img/background-by-adult-swim.png') ;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.character-sheet {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-inline: 8vh;
+    border-radius: 50px;
+    padding: 8vh;
+    a {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    img {
+        border-radius: 50px;
+    }
+}
